@@ -9,6 +9,7 @@ REM Vérifier si Yuzu est déjà en cours d'exécution
 tasklist /fi "imagename eq yuzu.exe" 2>NUL | find /i /n "yuzu.exe">NUL
 if "%ERRORLEVEL%"=="1" (
     REM Démarrer Yuzu en arrière-plan s'il n'est pas déjà en cours d'exécution
+    REM mettre son chemin vers ces folder
     start /B "" "C:\Users\hakob\AppData\Local\yuzu\maintenancetool.exe" --launcher "C:\Users\hakob\AppData\Local\yuzu\yuzu-windows-msvc/yuzu.exe"
 )
 
