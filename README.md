@@ -3,4 +3,4 @@ Shut down steam when we use another game launcher. (Steam may modify the command
 
 Change the PATH to EpicGameLauncher or the others.
 
-In the cmd use where EpicgameLauncher
+In the cmd use :  ```where EpicGamesLauncher.exe```
